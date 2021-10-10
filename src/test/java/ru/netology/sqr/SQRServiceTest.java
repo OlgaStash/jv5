@@ -9,6 +9,7 @@ class SQRServiceTest {
     @Test
     void sqrNumbersInPeriod() {
         SQRService service = new SQRService();
+
         // подготавливаем данные
         int minNumber = 100;
         int maxNumber = 300;
